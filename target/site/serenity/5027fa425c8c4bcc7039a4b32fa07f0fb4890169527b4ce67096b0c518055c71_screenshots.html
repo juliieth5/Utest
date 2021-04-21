@@ -1,0 +1,256 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Demo Project using Serenity and Cucumber</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="a8689f207d1a33525e89d7ef344b6fd58d1c696486c83789f7df6efaddda3fd1.html">Create User</a></span>
+                > <span class="truncate-60"><a
+                    href="5027fa425c8c4bcc7039a4b32fa07f0fb4890169527b4ce67096b0c518055c71.html">Fill formulary </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 21-04-2021 11:55</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Create User </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                AS a user, I want to diligence the formulary for create a user
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="e4ef4831a220e0a9cbdbfec794f5c31b3fef2adf1cb8126df1cc35a6f525969c.html">Scenario1
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="8e3b9bd5eba0a2d944ce7d2a73335e57289cd25f71e556e1618e946dc87d7ec9.html">Stories
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Fill formulary
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="1787aeffa575da1df2b2446fddb31907bebea2dd54ccbe57833bb51ebd49517d.png" title=" Given than leidy Open utest Page and Click Join Button" width="1366"/>
+                <img src="1787aeffa575da1df2b2446fddb31907bebea2dd54ccbe57833bb51ebd49517d.png" title=" Leidy open up" width="1366"/>
+                <img src="1787aeffa575da1df2b2446fddb31907bebea2dd54ccbe57833bb51ebd49517d.png" title=" leidy opens the Create user page" width="1366"/>
+                <img src="1787aeffa575da1df2b2446fddb31907bebea2dd54ccbe57833bb51ebd49517d.png" title=" Leidy open up (completed)" width="1366"/>
+                <img src="da134f19debcb8164499dbd461724823b22ef03bda7460c73b91e82503832fe7.png" title=" Leidy register" width="1366"/>
+                <img src="da134f19debcb8164499dbd461724823b22ef03bda7460c73b91e82503832fe7.png" title=" leidy clicks on Button to begin the register" width="1366"/>
+                <img src="2423be450dc1ce04e8fc801d9d03eb743b18840ca9f141be661f193e044415f7.png" title=" Leidy register (completed)" width="1366"/>
+                <img src="70d6e039be072393bcdb25d313db7560377b42a9b8fbeb0cf74d39f8d9ab5651.png" title=" Given than leidy Open utest Page and Click Join Button (completed)" width="1366"/>
+                <img src="1b3546689775092af5bc43482b8992655c61e966a0dc74fee58032c03a38eff0.png" title=" When She Fill all register fields
+| strName | strLastName | strEmail | strBirthMonth | strBirthDay | strBirthYear | strCity | strPostalCode | strPassword |
+| leidy | Murillo | juliieth520@hotmail.com | August | 10 | 1995 | Medellin | 050001 | leidy123 |" width="1366"/>
+                <img src="1b3546689775092af5bc43482b8992655c61e966a0dc74fee58032c03a38eff0.png" title=" Leidy personal information" width="1366"/>
+                <img src="1b3546689775092af5bc43482b8992655c61e966a0dc74fee58032c03a38eff0.png" title=" leidy enters 'leidy' into where will we put the firts name" width="1366"/>
+                <img src="6b2276f819a12aa9cefff45af75fea2d6e790ae54ee155f5d4352fa1529d6372.png" title=" leidy enters 'Murillo' into where will we put the last name" width="1366"/>
+                <img src="46d5d5cff40a1621850345d47970ee4c7e669ffd80e50c2906707738cf0cfaca.png" title=" leidy enters 'juliieth520@hotmail.com' into where will we put the email" width="1366"/>
+                <img src="66f2fa959f39b5c296be9fdc8cbc60f1f831f850eeabd2d07abeb7d7654eda15.png" title=" leidy select August on where will we put the month" width="1366"/>
+                <img src="bd3fc1287805ef6d5bfbe4ce612da819f84ef8bf3243db378eb863687a5b0054.png" title=" leidy select 10 on where will we put the day" width="1366"/>
+                <img src="7f05cd0f1d698d517602e528b6b8de12395e80566fb15b55b2fe8a35634659ce.png" title=" leidy select 1995 on where will we put the year" width="1366"/>
+                <img src="b0afeb8a6eccca5d63e1a46cea1b4ae73977ffcfdc78002f8cc4c7f4761dfc45.png" title=" leidy clicks on next form" width="1366"/>
+                <img src="b0afeb8a6eccca5d63e1a46cea1b4ae73977ffcfdc78002f8cc4c7f4761dfc45.png" title=" Leidy personal information (completed)" width="1366"/>
+                <img src="c1de81b9279f7fcc0464e230de7f806ab17f80f2ac630231b937198e2180d020.png" title=" Leidy ubication" width="1366"/>
+                <img src="c1de81b9279f7fcc0464e230de7f806ab17f80f2ac630231b937198e2180d020.png" title=" leidy enters 'Medellin' into where will we put the City" width="1366"/>
+                <img src="6faf2bfcd3961318ae508e511877da0915037443e1936cb31cc114ad59a6b0ea.png" title=" leidy enters ARROW_DOWN into where will we put the City" width="1366"/>
+                <img src="d6a88c86b8b6b6e5cf911d67d2520ca8b9b85889b6c443620cc791b1bd5ac02b.png" title=" leidy enters ENTER into where will we put the City" width="1366"/>
+                <img src="823079578fb808d1f13e0e527fd98d79facc636c3fc3afacd3475afc04bf7de0.png" title=" leidy enters '050001' into where will we Postal Code" width="1366"/>
+                <img src="26dd972b38452fa6a9a0a643e293102b1770b272e3c53758f6e80d11cfaffe64.png" title=" leidy clicks on next form" width="1366"/>
+                <img src="26dd972b38452fa6a9a0a643e293102b1770b272e3c53758f6e80d11cfaffe64.png" title=" Leidy ubication (completed)" width="1366"/>
+                <img src="84af09905722b758ce239562351f2c89174f10dfcf712c7e9f6df66c3f885568.png" title=" Leidy devices" width="1366"/>
+                <img src="84af09905722b758ce239562351f2c89174f10dfcf712c7e9f6df66c3f885568.png" title=" leidy clicks on next to the last step" width="1366"/>
+                <img src="84af09905722b758ce239562351f2c89174f10dfcf712c7e9f6df66c3f885568.png" title=" Leidy devices (completed)" width="1366"/>
+                <img src="2177452ac6e6bc39f1b12f9131ebc419877028f7da7c453c86f2a79ece8a5af7.png" title=" Leidy finish" width="1366"/>
+                <img src="2177452ac6e6bc39f1b12f9131ebc419877028f7da7c453c86f2a79ece8a5af7.png" title=" leidy enters 'leidy123' into where will we put the the password" width="1366"/>
+                <img src="042905985169e364d96674b320ac864d0139506c15b2d58df6245ac3c2106d23.png" title=" leidy enters 'leidy123' into where will we confirm the password" width="1366"/>
+                <img src="5f82628cd3ff7b61efc88cbb092b9c9fecc065cc0de86edd36fcd0353ada78e3.png" title=" leidy clicks on check box to accept terms" width="1366"/>
+                <img src="748772a45268c9bb876c1d8deda3e1c7811dfa5a69e9862d25f3fb9d94e7abbc.png" title=" leidy clicks on check box to accept conditions" width="1366"/>
+                <img src="748772a45268c9bb876c1d8deda3e1c7811dfa5a69e9862d25f3fb9d94e7abbc.png" title=" Leidy finish (completed)" width="1366"/>
+                <img src="748772a45268c9bb876c1d8deda3e1c7811dfa5a69e9862d25f3fb9d94e7abbc.png" title=" When She Fill all register fields
+| strName | strLastName | strEmail | strBirthMonth | strBirthDay | strBirthYear | strCity | strPostalCode | strPassword |
+| leidy | Murillo | juliieth520@hotmail.com | August | 10 | 1995 | Medellin | 050001 | leidy123 | (completed)" width="1366"/>
+                <img src="748772a45268c9bb876c1d8deda3e1c7811dfa5a69e9862d25f3fb9d94e7abbc.png" title=" Then he do click button complete Register" width="1366"/>
+                <img src="748772a45268c9bb876c1d8deda3e1c7811dfa5a69e9862d25f3fb9d94e7abbc.png" title=" Then answer" width="1366"/>
+                <img src="748772a45268c9bb876c1d8deda3e1c7811dfa5a69e9862d25f3fb9d94e7abbc.png" title=" Then he do click button complete Register (completed): <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.90</span>
+</div>
+</body>
+</html>

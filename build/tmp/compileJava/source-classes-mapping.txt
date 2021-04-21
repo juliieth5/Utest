@@ -1,0 +1,28 @@
+co/com/utest/choucair/userinterface/PersonalInformationPage.java
+ co.com.utest.choucair.userinterface.PersonalInformationPage
+co/com/utest/choucair/tasks/PersonalInformation.java
+ co.com.utest.choucair.tasks.PersonalInformation
+co/com/utest/choucair/tasks/Register.java
+ co.com.utest.choucair.tasks.Register
+co/com/utest/choucair/tasks/Finish.java
+ co.com.utest.choucair.tasks.Finish
+co/com/utest/choucair/tasks/OpenUp.java
+ co.com.utest.choucair.tasks.OpenUp
+co/com/utest/choucair/model/RegisterData.java
+ co.com.utest.choucair.model.RegisterData
+co/com/utest/choucair/userinterface/DevicesPage.java
+ co.com.utest.choucair.userinterface.DevicesPage
+co/com/utest/choucair/tasks/Ubication.java
+ co.com.utest.choucair.tasks.Ubication
+co/com/utest/choucair/userinterface/CreateUserPage.java
+ co.com.utest.choucair.userinterface.CreateUserPage
+co/com/utest/choucair/tasks/Devices.java
+ co.com.utest.choucair.tasks.Devices
+co/com/utest/choucair/questions/Answer.java
+ co.com.utest.choucair.questions.Answer
+co/com/utest/choucair/userinterface/FinishPage.java
+ co.com.utest.choucair.userinterface.FinishPage
+co/com/utest/choucair/userinterface/UbicationPage.java
+ co.com.utest.choucair.userinterface.UbicationPage
+co/com/utest/choucair/userinterface/UtestRegisterPage.java
+ co.com.utest.choucair.userinterface.UtestRegisterPage
